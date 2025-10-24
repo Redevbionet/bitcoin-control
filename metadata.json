@@ -1,0 +1,5 @@
+{
+  "name": "Bitcoin's Remote Control",
+  "description": "An interactive web application to clearly explain the fundamental concepts of Bitcoin Private Keys and Transaction IDs (TXIDs) in a visually appealing way.",
+  "requestFramePermissions": []
+}
