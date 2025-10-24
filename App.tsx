@@ -1,7 +1,6 @@
 
 import React, { useState, useCallback } from 'react';
 import { PrivateKeyCard } from './components/PrivateKeyCard';
-import { TxidCard } from './components/TxidCard';
 import { generatePrivateKey } from './services/cryptoService';
 
 const App: React.FC = () => {
@@ -29,7 +28,6 @@ const App: React.FC = () => {
             privateKey={privateKey}
             onGenerate={handleGenerateKey}
           />
-          <TxidCard />
         </main>
 
         <footer className="text-center mt-12 md:mt-16 text-slate-500">
