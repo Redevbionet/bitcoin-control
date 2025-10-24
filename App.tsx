@@ -23,7 +23,7 @@ const App: React.FC = () => {
           </p>
         </header>
 
-        <main className="grid grid-cols-0 lg:grid-cols-2 gap-auto lg:gap-9">
+        <main className="grid grid-cols-0 lg:grid-cols-1 gap-auto lg:gap-9">
           <PrivateKeyCard
             privateKey={privateKey}
             onGenerate={handleGenerateKey}
